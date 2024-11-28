@@ -612,6 +612,30 @@ video {
   margin-bottom: 70px;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.ml-\[120px\] {
+  margin-left: 120px;
+}
+
+.ml-\[150px\] {
+  margin-left: 150px;
+}
+
+.ml-\[230px\] {
+  margin-left: 230px;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -648,30 +672,6 @@ video {
   margin-top: 50px;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-0 {
-  margin-left: 0px;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[50px\] {
-  margin-left: 50px;
-}
-
-.ml-\[100px\] {
-  margin-left: 100px;
-}
-
-.ml-\[150px\] {
-  margin-left: 150px;
-}
-
 .flex {
   display: flex;
 }
@@ -694,6 +694,14 @@ video {
 
 .h-\[230px\] {
   height: 230px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .w-\[100\%\] {
@@ -726,6 +734,10 @@ video {
 
 .w-\[90\%\] {
   width: 90%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
 }
 
 .list-disc {
@@ -792,6 +804,14 @@ video {
   gap: 10px;
 }
 
+.gap-\[130px\] {
+  gap: 130px;
+}
+
+.gap-\[150px\] {
+  gap: 150px;
+}
+
 .gap-\[15px\] {
   gap: 15px;
 }
@@ -820,6 +840,10 @@ video {
   gap: 60px;
 }
 
+.gap-\[70px\] {
+  gap: 70px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -846,6 +870,10 @@ video {
 
 .rounded-sm {
   border-radius: 0.125rem;
+}
+
+.rounded-none {
+  border-radius: 0px;
 }
 
 .border-2 {
@@ -939,6 +967,14 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .p-4 {
@@ -1088,6 +1124,11 @@ video {
 .py-\[90px\] {
   padding-top: 90px;
   padding-bottom: 90px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
 }
 
 .pb-\[100px\] {
@@ -1271,6 +1312,15 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.bg-blend-color-dodge {
+  background-blend-mode: color-dodge;
 }
 
 .shadow-xl {
