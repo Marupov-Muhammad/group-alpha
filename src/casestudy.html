@@ -11,24 +11,27 @@
 <body>
 
     <header class="abdu p-[20px]">
-        <navbar class="flex items-center justify-around">
-            <div class="flex gap-20">
-                <img src="./abdullo/logo.png" alt="">
-
-                <ul class="flex items-center gap-8 text-gray-500">
-                    <select class="bg-transparent">
-                        <option>Services</option>
-                    </select>
-                    <li class="text-white">Case Studies</li>
-                    <li>About Us</li>
-                    <li>Blog</li>
-                    <li>Contacts</li>
+        <nav class="w-[90%] sm:w-[75%] py-[30px] m-auto text-white flex justify-between items-center">
+            <div class="flex gap-[40px]">
+                <img src="./izzyfoto/logo.png" alt="">
+                <ul class="hidden  sm:flex gap-[40px]">
+                    <li class="hover:text-slate-500">
+                        <a href="./services.html" target="_blank">
+                            <select name="" id="" class="bg-transparent">
+                                <option value="" > Services</option>
+                            </select> 
+                        </a>
+                       
+                     </li>
+                    <li class=" text-slate-500 "> Case Studies</li>
+                    <li class=" hover:text-slate-500 "><a href="./about.html" target="_blank">About us</a> </li>
+                    <li class=" hover:text-slate-500 "> <a href="./blog.html" target="_blank">Blog</a></li>
+                    <li class=" hover:text-slate-500 "> <a href="./contacts.html">Contacts</a></li>
                 </ul>
             </div>
-            <div>
-                <button class="bg-[#7772F1] text-white py-[8px] px-[20px] rounded-sm">Talk to a human</button>
-            </div>
-        </navbar>
+
+            <button class="py-[10px] px-[40px] text-[white] rounded-[10px] bg-[#7772F1]">Talk to a human</button>
+        </nav>
         <div class="flex text-gray-500 justify-center items-center gap-3 mt-20">
             <div>
                 <img src="./abdullo/Home.png" alt="">
@@ -45,7 +48,7 @@
         <div class="flex justify-center mt-3">
             <img class="" src="./abdullo/torsale.png" alt="">
         </div>
-        <p class="font-bold text-5xl text-white flex justify-center text-center">200% increase in conversion rate for
+        <p class="font-bold text-[30px] sm:text-5xl text-white flex justify-center text-center">200% increase in conversion rate for
             <br> Lovato Company
         </p>
         <style>
@@ -56,9 +59,9 @@
             }
         </style>
     </header>
-    <div class="flex items-start w-[90%] m-auto">
+    <div class="flex flex-col gap-[40px] sm:gap-[0px] sm:flex-row items-start w-[90%] m-auto">
         <div>
-            <div class="flex gap-[100px] px-7 py-5">
+            <div class="flex flex-col sm:flex-row gap-[30px] items-start sm:gap-[100px] sm:px-7 py-5">
                 <div class="flex items-center gap-2">
                     <img src="./abdullo/circlered.png" alt="">
                     <div>
@@ -184,7 +187,7 @@
 
         </div>
 
-        <div class="bg-[#F4F5F6] w-[30%] p-[20px] rounded-lg">
+        <div class="bg-[#F4F5F6] sm:w-[30%] p-[20px] rounded-lg">
             <p class="font-bold text-3xl">About the client</p>
             <p class="mt-5">At facilisi sapien posuere eget nunc senectus proin <br>
                 nullam. Tortor senectus in et sagittis, vitae diam cras <br>
